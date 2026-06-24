@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 시계 테두리 -->
+    <path
+        android:strokeColor="#FBC42C"
+        android:strokeWidth="5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M54,22 A32,32 0 1,1 53.99,22 Z" />
+
+    <!-- 시침 -->
+    <path
+        android:strokeColor="#FBC42C"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L54,34" />
+
+    <!-- 분침 -->
+    <path
+        android:strokeColor="#FBC42C"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,54 L68,54" />
+
+    <!-- 중심점 -->
+    <circle
+        android:fillColor="#FBC42C"
+        android:cx="54"
+        android:cy="54"
+        android:r="3" />
+</vector>
